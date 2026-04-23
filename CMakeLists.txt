@@ -19,6 +19,5 @@ install(FILES include/lib1.h DESTINATION include)
 
 install(EXPORT MaLib1Targets
     FILE MaLib1Config.cmake
-    NAMESPACE MaLib1::
     DESTINATION lib/cmake/MaLib1
 )
